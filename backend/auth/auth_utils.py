@@ -1,3 +1,14 @@
+class InvalidDomainError(Exception):
+    """Exception raised for invalid email domain."""
+
+    def __init__(self, domain, message="Email domain is not valid"):
+        self.domain = domain
+        self.message = message
+        super().__init__(self.message)
+
+    def __str__(self):
+        return f'{self.domain} -> {self.message}'
+
 def get_authenticated_user_details(request_headers):
     user_object = {}
 
@@ -8,7 +19,7 @@ def get_authenticated_user_details(request_headers):
         raw_user_object = sample_user.sample_user
     else:
         ## if it is, get the user details from the EasyAuth headers
-        raw_user_object = {k:v for k,v in request_headers.items()}
+        raw_user_object = {k: v for k, v in request_headers.items()}
 
     user_object['user_principal_id'] = raw_user_object.get('X-Ms-Client-Principal-Id')
     user_object['user_name'] = raw_user_object.get('X-Ms-Client-Principal-Name')
@@ -17,4 +28,16 @@ def get_authenticated_user_details(request_headers):
     user_object['client_principal_b64'] = raw_user_object.get('X-Ms-Client-Principal')
     user_object['aad_id_token'] = raw_user_object.get('X-Ms-Token-Aad-Id-Token')
 
+
+    if not is_valid_domain(user_object['user_name']):
+        print('User is not authorized')
+        raise InvalidDomainError(user_object['user_name'])
+
     return user_object
+
+
+def is_valid_domain(email):
+    domain = email.split('@')[1]
+    return domain in ['nagarro.com', 'constoso.com']
+
+

@@ -1,0 +1,272 @@
+[
+  {
+    "name": "AUTH_CLIENT_SECRET",
+    "value": "",
+    "slotSetting": false
+  },
+  {
+    "name": "AZURE_COSMOSDB_ACCOUNT",
+    "value": "db-saperion-va",
+    "slotSetting": false
+  },
+  {
+    "name": "AZURE_COSMOSDB_CONVERSATIONS_CONTAINER",
+    "value": "conversations",
+    "slotSetting": false
+  },
+  {
+    "name": "AZURE_COSMOSDB_DATABASE",
+    "value": "db_conversation_history",
+    "slotSetting": false
+  },
+  {
+    "name": "AZURE_COSMOSDB_MONGO_VCORE_CONNECTION_STRING",
+    "value": "",
+    "slotSetting": false
+  },
+  {
+    "name": "AZURE_COSMOSDB_MONGO_VCORE_CONTAINER",
+    "value": "",
+    "slotSetting": false
+  },
+  {
+    "name": "AZURE_COSMOSDB_MONGO_VCORE_CONTENT_COLUMNS",
+    "value": "content",
+    "slotSetting": false
+  },
+  {
+    "name": "AZURE_COSMOSDB_MONGO_VCORE_DATABASE",
+    "value": "",
+    "slotSetting": false
+  },
+  {
+    "name": "AZURE_COSMOSDB_MONGO_VCORE_FILENAME_COLUMN",
+    "value": "filepath",
+    "slotSetting": false
+  },
+  {
+    "name": "AZURE_COSMOSDB_MONGO_VCORE_INDEX",
+    "value": "",
+    "slotSetting": false
+  },
+  {
+    "name": "AZURE_COSMOSDB_MONGO_VCORE_TITLE_COLUMN",
+    "value": "title",
+    "slotSetting": false
+  },
+  {
+    "name": "AZURE_COSMOSDB_MONGO_VCORE_URL_COLUMN",
+    "value": "url",
+    "slotSetting": false
+  },
+  {
+    "name": "AZURE_COSMOSDB_MONGO_VCORE_VECTOR_COLUMNS",
+    "value": "contentVector",
+    "slotSetting": false
+  },
+  {
+    "name": "AZURE_OPENAI_EMBEDDING_NAME",
+    "value": "text-embedding-ada-002",
+    "slotSetting": false
+  },
+  {
+    "name": "AZURE_OPENAI_ENDPOINT",
+    "value": "https://ai-hubsaperionvasec899139008023.openai.azure.com/",
+    "slotSetting": false
+  },
+  {
+    "name": "AZURE_OPENAI_KEY",
+    "value": "5ec7005f9625441386fd545887eea4cb",
+    "slotSetting": false
+  },
+  {
+    "name": "AZURE_OPENAI_MAX_TOKENS",
+    "value": "800",
+    "slotSetting": false
+  },
+  {
+    "name": "AZURE_OPENAI_MODEL",
+    "value": "gpt-35-turbo-16k",
+    "slotSetting": false
+  },
+  {
+    "name": "AZURE_OPENAI_MODEL_NAME",
+    "value": "gpt-35-turbo-16k",
+    "slotSetting": false
+  },
+  {
+    "name": "AZURE_OPENAI_RESOURCE",
+    "value": "",
+    "slotSetting": false
+  },
+  {
+    "name": "AZURE_OPENAI_STOP_SEQUENCE",
+    "value": "",
+    "slotSetting": false
+  },
+  {
+    "name": "AZURE_OPENAI_SYSTEM_MESSAGE",
+    "value": "You are a virtual assistant that specializes in providing detailed technical support for document management systems, particularly focusing on OnBase and Saperion applications. Your primary role is to assist users in navigating complex software environments, troubleshooting issues, and optimizing their document scanning, uploading, and indexing workflows.\n\nAs an assistant, you are equipped to handle a range of user queries from basic installation steps to advanced operational troubleshooting. You guide users through the installation processes of the OnBase Scan and Unity Clients, providing step-by-step instructions on downloading, installing, and setting up the software. You are familiar with specific settings for batch scanning, managing scan queues, selecting scan sources and formats, and ensuring the quality of scanned documents through various quality assurance functions.\n\nAdditionally, you assist with the Saperion WebClient, explaining its user interface, which includes navigation areas, workspaces, result lists, and document previews. You provide support on manually uploading documents, dragging and dropping files into specific areas, and using context menus for advanced functionalities.\n\nYou are adept at indexing documents, describing how to enter index values directly, choose from selection lists with search capabilities, and handle error messages effectively. You offer best practices for efficiently entering index data, automatically filling dependent fields based on document relationships to contracts, vehicles, or customers, and ensuring compliance with mandatory metadata fields.\n\nFor troubleshooting, you can interpret and resolve error messages related to login issues, scanning errors, and indexing discrepancies. You guide users through common pitfalls, provide workarounds, and explain how to use the software's built-in help and diagnostic tools.\n\nYou maintain a polite and professional demeanor, ensuring that users receive clear, concise, and technically accurate advice. You are capable of adjusting your responses based on the technical level of the user, from novices needing basic guidance to advanced users requiring detailed technical specifications and workflows. Your ultimate goal is to ensure that users can efficiently and effectively manage their document processing tasks with minimal disruptions.",
+    "slotSetting": false
+  },
+  {
+    "name": "AZURE_OPENAI_TEMPERATURE",
+    "value": "0",
+    "slotSetting": false
+  },
+  {
+    "name": "AZURE_OPENAI_TOP_P",
+    "value": "1",
+    "slotSetting": false
+  },
+  {
+    "name": "AZURE_SEARCH_CONTENT_COLUMNS",
+    "value": "content",
+    "slotSetting": false
+  },
+  {
+    "name": "AZURE_SEARCH_ENABLE_IN_DOMAIN",
+    "value": "True",
+    "slotSetting": false
+  },
+  {
+    "name": "AZURE_SEARCH_FILENAME_COLUMN",
+    "value": "filepath",
+    "slotSetting": false
+  },
+  {
+    "name": "AZURE_SEARCH_INDEX",
+    "value": "saperion-data-small-swe",
+    "slotSetting": false
+  },
+  {
+    "name": "AZURE_SEARCH_KEY",
+    "value": "JHI2roptcakXxg4UWiUZ5bruClLaC23X4S1bb5F5DnAzSeBC1SKG",
+    "slotSetting": false
+  },
+  {
+    "name": "AZURE_SEARCH_PERMITTED_GROUPS_COLUMN",
+    "value": "",
+    "slotSetting": false
+  },
+  {
+    "name": "AZURE_SEARCH_QUERY_TYPE",
+    "value": "vectorSimpleHybrid",
+    "slotSetting": false
+  },
+  {
+    "name": "AZURE_SEARCH_SEMANTIC_SEARCH_CONFIG",
+    "value": "azureml-default",
+    "slotSetting": false
+  },
+  {
+    "name": "AZURE_SEARCH_SERVICE",
+    "value": "ai-search-saperion-swecent899139008023",
+    "slotSetting": false
+  },
+  {
+    "name": "AZURE_SEARCH_STRICTNESS",
+    "value": "3",
+    "slotSetting": false
+  },
+  {
+    "name": "AZURE_SEARCH_TITLE_COLUMN",
+    "value": "title",
+    "slotSetting": false
+  },
+  {
+    "name": "AZURE_SEARCH_TOP_K",
+    "value": "5",
+    "slotSetting": false
+  },
+  {
+    "name": "AZURE_SEARCH_URL_COLUMN",
+    "value": "url",
+    "slotSetting": false
+  },
+  {
+    "name": "AZURE_SEARCH_USE_SEMANTIC_SEARCH",
+    "value": "True",
+    "slotSetting": false
+  },
+  {
+    "name": "AZURE_SEARCH_VECTOR_COLUMNS",
+    "value": "contentVector",
+    "slotSetting": false
+  },
+  {
+    "name": "DATASOURCE_TYPE",
+    "value": "AzureCognitiveSearch",
+    "slotSetting": false
+  },
+  {
+    "name": "ELASTICSEARCH_CONTENT_COLUMNS",
+    "value": "",
+    "slotSetting": false
+  },
+  {
+    "name": "ELASTICSEARCH_EMBEDDING_MODEL_ID",
+    "value": "",
+    "slotSetting": false
+  },
+  {
+    "name": "ELASTICSEARCH_ENABLE_IN_DOMAIN",
+    "value": "True",
+    "slotSetting": false
+  },
+  {
+    "name": "ELASTICSEARCH_ENCODED_API_KEY",
+    "value": "",
+    "slotSetting": false
+  },
+  {
+    "name": "ELASTICSEARCH_ENDPOINT",
+    "value": "",
+    "slotSetting": false
+  },
+  {
+    "name": "ELASTICSEARCH_FILENAME_COLUMN",
+    "value": "filepath",
+    "slotSetting": false
+  },
+  {
+    "name": "ELASTICSEARCH_INDEX",
+    "value": "",
+    "slotSetting": false
+  },
+  {
+    "name": "ELASTICSEARCH_QUERY_TYPE",
+    "value": "",
+    "slotSetting": false
+  },
+  {
+    "name": "ELASTICSEARCH_STRICTNESS",
+    "value": "3",
+    "slotSetting": false
+  },
+  {
+    "name": "ELASTICSEARCH_TITLE_COLUMN",
+    "value": "title",
+    "slotSetting": false
+  },
+  {
+    "name": "ELASTICSEARCH_TOP_K",
+    "value": "5",
+    "slotSetting": false
+  },
+  {
+    "name": "ELASTICSEARCH_URL_COLUMN",
+    "value": "url",
+    "slotSetting": false
+  },
+  {
+    "name": "ELASTICSEARCH_VECTOR_COLUMNS",
+    "value": "contentVector",
+    "slotSetting": false
+  },
+  {
+    "name": "SCM_DO_BUILD_DURING_DEPLOYMENT",
+    "value": "true",
+    "slotSetting": false
+  }
+]
