@@ -102,7 +102,7 @@ If this is your first time deploying the app, you can use [az webapp up](https:/
 
 If you've deployed the app previously, first run this command to update the appsettings to allow local code deployment:
 
-`az webapp config appsettings set -g <resource-group-name> -n <existing-app-name> --settings WEBSITE_WEBDEPLOY_USE_SCM=false`
+`az webapp config appsettings set -n p7-itsm-chatbot-demo -g itsm-chatbod-demo-northcentralus --settings WEBSITE_WEBDEPLOY_USE_SCM=false`
 
 Check the runtime stack for your app by viewing the app service resource in the Azure Portal. If it shows "Python - 3.10", use `PYTHON:3.10` in the runtime argument below. If it shows "Python - 3.11", use `PYTHON:3.11` in the runtime argument below. 
 
@@ -110,8 +110,8 @@ Check the SKU in the same way. Use the abbreviated SKU name in the argument belo
 
 Then, use these commands to deploy your local code to the existing app:
 
-1. `az webapp up --runtime PYTHON:3.11 --sku B1 --name saperion-virtual-assistant-demo --resource-group saperion-virtual-assistant-demo_group`
-1. `az webapp config set --startup-file "python3 -m gunicorn app:app" --name saperion-virtual-assistant-demo --resource-group saperion-virtual-assistant-demo_group`
+1. `az webapp up --runtime PYTHON:3.11 --sku B1 --name p7-itsm-chatbot-demo --resource-group itsm-chatbod-demo-northcentralus`
+1. `az webapp config set --startup-file "python3 -m gunicorn app:app" --name p7-itsm-chatbot-demo --resource-group itsm-chatbod-demo-northcentralus`
 
 Make sure that the app name and resource group match exactly for the app that was previously deployed.
 
